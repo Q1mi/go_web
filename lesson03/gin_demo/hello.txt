@@ -1,0 +1,9 @@
+<h1 style='color:orange'>Hello Golang!</h1>
+<h2>how are you!</h2>
+<img id='i1' src='http://www.people.com.cn/mediafile/pic/20180621/39/14800398060433539315.jpg'>
+<button id='b1'>点我</button>
+<script>
+document.getElementById('b1').onclick=function(){
+    document.getElementById('i1').src='http://news.youth.cn/jsxw/201706/W020170607558140944427.jpg'
+}
+</script>
